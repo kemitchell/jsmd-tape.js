@@ -9,7 +9,7 @@ function jsmdTape(markdown) {
       .map(function(line) {
         return '  ' + line})
       .join(EOL),
-    'test.end()',
+    '  test.end();',
     '});' ].join(EOL) }
 
 module.exports = jsmdTape
