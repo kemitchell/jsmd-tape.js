@@ -1,7 +1,7 @@
 {
   "name": "jsmd-tape",
   "description": "rewrite code examples in Markdown code blocks as a Tape test",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "author": "Kyle E. Mitchell <kyle@kemitchell.com> (https://kemitchell.com/)",
   "bin": "jsmd-tape",
   "dependencies": {
