@@ -9,6 +9,5 @@
     "stdin-transform-cli": "^1.0.0"
   },
   "license": "MIT",
-  "preferGlobal": true,
   "repository": "kemitchell/jsmd-tape.js"
 }
