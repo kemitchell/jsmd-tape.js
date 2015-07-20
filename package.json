@@ -3,10 +3,10 @@
   "description": "rewrite code examples in Markdown code blocks as a Tape test",
   "version": "0.1.1",
   "author": "Kyle E. Mitchell <kyle@kemitchell.com> (https://kemitchell.com/)",
-  "bin": "jsmd-tape",
+  "bin": "node_modules/stdin-transform-cli/sync",
   "dependencies": {
     "jsmd-rewrite": "^0.1.1",
-    "stdin-transform-cli": "^1.0.0"
+    "stdin-transform-cli": "^1.0.4"
   },
   "license": "MIT",
   "repository": "kemitchell/jsmd-tape.js"
