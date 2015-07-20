@@ -1,6 +1,6 @@
 Rewrite code examples in Markdown code blocks as test assertions.
 
-Rewrite this:
+Turns this:
 
     # Title of Your README.md
 
@@ -26,11 +26,11 @@ into this:
 
 ```javascript
 var additionModule = require('./');
-__jsmd__(2, additionModule(l, 1));
+__jsmd__(2, additionModule(1, 1));
 __jsmd__(4, additionModule(2, 2));
 ```
 
-Commmand-Line Interface
+Command-Line Interface
 =======================
 
 ```shellsesssion
@@ -49,7 +49,7 @@ Install:
 $ npm install --save jsmd-rewrite
 ```
 
-then:
+Then:
 
 ```javascript
 var rewrite = require('jsmd-rewrite');
