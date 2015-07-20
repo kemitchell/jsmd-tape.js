@@ -6,20 +6,19 @@ Turns this:
 
     This is _Markdown_!
 
-	<!--javascript
-	  var additionModule = require('./');
-	-->
+    <!--javascript
+      var additionModule = require('./');
+    -->
 
-	The above won't be rendered in HTML, such as on GitHub or
-	npmjs.com, but it will be included in the rewritten
-	JavaScript.
+    The above won't be rendered in HTML, such as on GitHub or npmjs.com,
+    but it will be included in the rewritten JavaScript.
 
-	The JavaScript expressions with comments that follow will
-	be rewritten as asssertions.
+    The JavaScript expressions with comments that follow will be
+    rewritten as asssertions.
     
     ```javascript
-	additionmodule(1, 1); // => 2
-	additionmodule(2, 2); // => 4
+    additionmodule(1, 1); // => 2
+    additionmodule(2, 2); // => 4
     ```
 
 into this:
@@ -82,6 +81,6 @@ Then add to `package.json`:
 The `sed` substitution allows you to write `require()` calls in code examples exactly as they will appear in user code:
 
     ```javascript
-	var add = require('addition')
-	add(1, 1) // => 2
-	```
+    var add = require('addition')
+    add(1, 1) // => 2
+    ```
