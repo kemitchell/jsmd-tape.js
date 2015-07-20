@@ -59,3 +59,29 @@ rewrite(markdown, assertionFunctionName); // returns string
 ```
 
 The function name used for assertions is `"__jsmd__"` by default.
+
+Testing `README.md` with `jsmd-tape`
+====================================
+
+For a package called "addition" do:
+
+```shellsession
+$ npm install --save-dev jsmd-tape tape
+```
+
+Then add to `package.json`:
+
+```json
+{
+  "scripts": {
+    "test": "jsmd-tape README.md | sed 's!addition!./!' | node"
+  }
+}
+```
+
+The `sed` substitution allows you to write `require()` calls in code examples exactly as they will appear in user code:
+
+    ```javascript
+	var addition = require('addition')
+	addition(1, 1) // => 2
+	```
