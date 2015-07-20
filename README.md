@@ -82,6 +82,6 @@ Then add to `package.json`:
 The `sed` substitution allows you to write `require()` calls in code examples exactly as they will appear in user code:
 
     ```javascript
-	var addition = require('addition')
-	addition(1, 1) // => 2
+	var add = require('addition')
+	add(1, 1) // => 2
 	```
