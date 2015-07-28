@@ -3,7 +3,7 @@
   "description": "rewrite code examples in Markdown code blocks as a Tape test",
   "version": "0.1.4",
   "author": "Kyle E. Mitchell <kyle@kemitchell.com> (https://kemitchell.com/)",
-  "bin": "node_modules/stdin-transform-cli/sync",
+  "bin": "cli",
   "dependencies": {
     "jsmd-rewrite": "^0.1.1",
     "stdin-transform-cli": "^1.0.4"
